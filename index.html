@@ -1,32 +1,14 @@
-<div style="display: flex; align-items: center; justify-content: center; height: 100vh;">
-  <div style="background-color: #fff; padding: 20px;">
-    <h1 style="text-align: center;">You have been rick rolled!</h1>
-    <img class="J9AiF" src="https://64.media.tumblr.com/tumblr_m971zpBbAF1rbgzizo1_500.gifv" alt="Tumblr: Image" style="transform: rotate(45deg); animation: rotate-animation 10s infinite linear;">
-  </div>
-</div>
+<button onclick="nice()">CLICK HERE FOR A FREE DISCORD NITRO</button>
 
-<audio id="nice">
-  <source src="./rick.mp3" type="audio/mp3">
-</audio>
-
-<style>
-@keyframes rotate-animation {
-  0% {
-    transform: rotate(0deg);
-  }
-  50% {
-    transform: rotate(180deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-</style>
 <script>
 var x = document.getElementById("nice"); 
 
 function playAudio() { 
   x.play(); 
 }
-playAudio();
+  
+function nice() {
+  document.write("<div style='display: flex; align-items: center; justify-content: center; height: 100vh;'><div style='background-color: #fff; padding: 20px;'><h1 style='text-align: center;'>You have been rick rolled!</h1><img class='J9AiF' src='https://64.media.tumblr.com/tumblr_m971zpBbAF1rbgzizo1_500.gifv' alt='Tumblr: Image' style='transform: rotate(45deg); animation: rotate-animation 10s infinite linear;'></div></div><audio id='nice'><source src='./rick.mp3' type='audio/mp3'></audio><style>@keyframes rotate-animation {0% {transform: rotate(0deg);}50% {transform: rotate(180deg);}100% {transform: rotate(360deg);}}</style>");
+  playAudio();
+}
 </script>
