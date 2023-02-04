@@ -5,7 +5,7 @@
   </div>
 </div>
 
-<audio autoplay>
+<audio id="nice">
   <source src="./rick.mp3" type="audio/mp3">
 </audio>
 
@@ -22,3 +22,10 @@
   }
 }
 </style>
+<script>
+var x = document.getElementById("nice"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+</script>
